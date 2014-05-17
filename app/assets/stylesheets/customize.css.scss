@@ -1,11 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
 
 $brand-primary: #22A7F0;
 $brand-danger: #c0392b;
 $jumbotron-bg: #ECF0F1;
 $navbar-default-bg: #22A7F0;
 $navbar-default-link-color: white;
-$font-family-sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-sans-serif: 'Lato', 'Lobster', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 @import 'bootstrap';
 
@@ -14,9 +15,9 @@ $font-family-sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 .navbar-brand {
-     font-weight: bold;
+     font-weight: normal;
      font-size: 2em;
      letter-spacing: 0.5px;
-     font-family: Lato;
+     font-family: Lobster;
    }
 

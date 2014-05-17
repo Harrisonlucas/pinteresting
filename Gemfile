@@ -11,6 +11,7 @@ gem 'sass-rails', '>= 4.0.0'
 gem 'bootstrap-sass', '~> 3.1.1'
 gem 'devise'
 gem 'jbuilder', '~> 1.2'
+gem 'paperclip', '3.5.3'
 
 group :doc do
     gem 'sdoc', require: false
