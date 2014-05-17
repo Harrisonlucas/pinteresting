@@ -1,5 +1,6 @@
 <div class="jumbotron center">	
-	<h1>Welcome to Pinty</h1>
+	<h1>Welcome to <span class="pinty">Pinty</span></h1>
+	<p>A straight off clone of the Pinterest web app.<br /> Made following the <a href="http://onemonthrails.com">One Month Rails</a> tutorial.</p>
 
 	<% if user_signed_in? %>
 	<%= link_to 'New Pin', new_pin_path, class: "btn btn-danger btn-lg" %>

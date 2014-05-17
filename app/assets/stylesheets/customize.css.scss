@@ -10,14 +10,30 @@ $font-family-sans-serif: 'Lato', 'Lobster', 'Helvetica Neue', Helvetica, Arial, 
 
 @import 'bootstrap';
 
+.pinty {
+	font-family: Lobster;
+	color: #e74c3c;
+}
+
 .center {
 	text-align: center;
 }
 
 .navbar-brand {
-     font-weight: normal;
-     font-size: 2em;
-     letter-spacing: 0.5px;
-     font-family: Lobster;
-   }
+	color: #e74c3c; 
+	font-weight: normal;
+	font-size: 2em;
+	letter-spacing: 0.5px;
+	font-family: Lobster;
+ }
 
+.pinit {
+	max-width: 360px;
+	padding: 5px 5px 5px 5px;
+}
+
+.bdr {
+	border: 2px;
+	border-color: white;
+	border-radius: 10px;
+}
