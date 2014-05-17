@@ -12,6 +12,8 @@ gem 'bootstrap-sass', '~> 3.1.1'
 gem 'devise'
 gem 'jbuilder', '~> 1.2'
 gem 'paperclip', '3.5.3'
+gem 'masonry-rails', '~> 0.2.0'
+gem 'jquery-turbolinks'
 
 group :doc do
     gem 'sdoc', require: false
